@@ -13,7 +13,7 @@ Add the dependency to your `shard.yml`:
 ```yaml
 dependencies:
   css-inline:
-    github: osbre/css-inline.cr
+    github: osbre/css-inline
 ```
 
 Run `shards install` — this will automatically build the native library.
@@ -76,7 +76,7 @@ inliner.inline(html2) # reuses cached stylesheets
 
 ## Contributing
 
-1. Fork it (<https://github.com/osbre/css-inline.cr/fork>)
+1. Fork it (<https://github.com/osbre/css-inline/fork>)
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
