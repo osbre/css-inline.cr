@@ -20,5 +20,3 @@ jobs:
         uses: crystal-lang/install-crystal@v1
       - name: Run tests
         run: crystal spec
-        env:
-          LD_LIBRARY_PATH: ${{ github.workspace }}/css-inline/bindings/c/target/release

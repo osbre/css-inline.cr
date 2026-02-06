@@ -1,4 +1,4 @@
-@[Link(ldflags: "-L#{__DIR__}/../css-inline/bindings/c/target/release -lcss_inline")]
+@[Link(ldflags: "-L#{__DIR__}/../css-inline/bindings/c/target/release -lcss_inline -Wl,-rpath,#{__DIR__}/../css-inline/bindings/c/target/release")]
 lib LibCssInline
   enum CssResult
     Ok
