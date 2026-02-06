@@ -7,3 +7,6 @@ authors:
 crystal: '>= 1.19.1'
 
 license: MIT
+
+scripts:
+  postinstall: cd css-inline/bindings/c && cargo build --release
